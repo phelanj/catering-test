@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hector's Catering</title>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="https://fonts.googleapis.com/css?family=Fugaz+One|Roboto" rel="stylesheet">
+</head>
+<body>
+
+<svg style="position: absolute; width: 0; height: 0; overflow: hidden" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="icon-restaurant" viewBox="0 0 24 24">
+<title>restaurant</title>
+<path d="M15.984 6c0-1.781 2.25-3.984 5.016-3.984v19.969h-2.484v-7.969h-2.531v-8.016zM11.016 9v-6.984h1.969v6.984c0 2.109-1.641 3.844-3.75 3.984v9h-2.484v-9c-2.109-0.141-3.75-1.875-3.75-3.984v-6.984h2.016v6.984h1.969v-6.984h2.016v6.984h2.016z"></path>
+</symbol>
+</defs>
+</svg>
+
+<section class="navbar">
+	<div class="items">
+  <img src = "menu.svg" class = "menu">
+  <a href="#news" class="menu-items">HOME</a>
+  <a href="#contact" class="menu-items">CONTACT</a>
+  <a href="#about" class="menu-items">ABOUT</a>
+  <a href="#about" class="right-menu-items" style = "text-align: center; ">HECTOR'S CATERING</a>
+  </div>
+</section>
+<div class="main">
+  <h1 style= "font-family: 'Fugaz One', cursive; text-align: center; ">Hector's Catering</h1>
+  
+        <!-- <img src="http://lorempixel.com/580/250/nature/1" style = "display: block; margin: auto;"> <!-- random image --> 
+        <div class="w3-content w3-section" style="max-width:900px">
+  <img class="mySlides w3-animate-fading" src="http://lorempixel.com/580/250/nature/1" style="width:100%">
+  <img class="mySlides w3-animate-fading" src="http://lorempixel.com/580/250/nature/2" style="width:100%">
+  <img class="mySlides w3-animate-fading" src="http://lorempixel.com/580/250/nature/3" style="width:100%">
+  <img class="mySlides w3-animate-fading" src="http://lorempixel.com/580/250/nature/4" style="width:100%">
+</div>
+    
+
+
+  <section class="container">
+  <!-- <div class="item-a">item-b</div>
+  <div class="item-e">item-c</div>
+  <div class="item-e">item-d</div>
+  <div class="item-e">item-e</div> -->
+</section>
+  
+  
+  
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae quam nec velit viverra iaculis. Mauris ut urna convallis leo imperdiet vehicula. Nunc egestas, tortor vel tempus vehicula, tortor tellus scelerisque lorem, commodo mattis nulla tortor a mauris. Fusce mauris leo, accumsan eu nibh eget, euismod ultricies mauris. Duis nunc lectus, rutrum at dictum at, tempor quis nibh. Aliquam erat volutpat. Donec vel purus tincidunt, vehicula dui id, hendrerit neque. Pellentesque eu consequat sapien. Maecenas in finibus elit, sit amet commodo nunc. Vestibulum tristique purus eget egestas auctor. Nunc tincidunt nisi diam, molestie dictum augue tincidunt iaculis. Pellentesque non sem aliquet, fermentum risus a, sodales mauris. Donec lacinia at orci nec rhoncus. Aenean in imperdiet diam.  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text.. Some text some text some text some text..Some text some text some text some text..Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  <p>Some text some text some text some text..</p>
+  
+  
+  
+  <div class="w3-row">
+  <div class="w3-col w3-container m4 l4 s12 triple">
+  	<svg class="icon icon-restaurant"><use xlink:href="#icon-restaurant"></use></svg>
+    <p>This part will occupy 12 columns on a small screen, 4 on a medium screen, and 3 on a large screen.</p>
+  </div>
+  <div class="w3-col w3-container m4 l4 s12 triple">  
+  	<img src = "basket.svg" class = "icon">
+    <p>This part will occupy 12 columns on a small screen, 8 on a medium screen, and 9 on a large screen.</p>
+    <p>This part will occupy 12 columns on a small screen, 8 on a medium screen, and 9 on a large screen.</p>
+  </div>
+   <div class="w3-col w3-container m4 l4 s12 triple">  
+		<img src = "star.svg" class = "icon">
+    <p>This part will occupy 12 columns on a small screen, 8 on a medium screen, and 9 on a large screen.</p>
+    <p>This part will occupy 12 columns on a small screen, 8 on a medium screen, and 9 on a large screen.</p>
+  </div>
+</div>
+  
+  <div class = "triple">
+    <p>Some text some text somsdsde text some text..</p>
+	<p>Some text some text some text some text..</p>
+    <p>Sasdadasdome text sasdasdasdasdasdasome text some text some text..</p>
+
+  </div>
+  
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 9000);    
+}
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+</body>
+</html>
