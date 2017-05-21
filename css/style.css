@@ -1,3 +1,5 @@
+
+
 body {margin:0;   background-color: #fafafa;}
 
 .navbar {
@@ -21,6 +23,7 @@ body {margin:0;   background-color: #fafafa;}
 	margin-left: 10px;
 	
 }
+
 
 .items {
 	max-width: 1224px;
@@ -63,10 +66,7 @@ margin: auto;
 	padding-right: 50px;
   
 }
-.triple {
-/* 	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	grid-row: 2 / span 2; */
+.center-text {
 	text-align: center;
 }
 
@@ -90,4 +90,12 @@ h2 {
 
 p {
 	font-size: 1.125em !important;
+}
+
+
+
+@media only screen and (max-device-width: 600px) {
+	p {
+	font-size: 1.5em !important;
+}
 }
