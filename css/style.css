@@ -61,7 +61,7 @@ max-width: 1000px;
 margin: auto;
   padding: 16px;
   margin-top: 30px;
-  height: 100vh; /* Used in this example to enable scrolling */
+  height: 125vh; /* Used in this example to enable scrolling */
   padding-left: 50px;
 	padding-right: 50px;
   
@@ -97,5 +97,8 @@ p {
 @media only screen and (max-device-width: 600px) {
 	p {
 	font-size: 2em !important;
+}
+.mob-left {
+	text-align: left;
 }
 }
