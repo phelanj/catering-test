@@ -28,7 +28,6 @@ body {margin:0;   background-color: #fafafa;}
 .items {
 	max-width: 1224px;
 	    margin: auto;
-
 }
 
 .menu-items {
@@ -37,8 +36,8 @@ body {margin:0;   background-color: #fafafa;}
   color: #000000;
   text-align: left;
   padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+  text-decoration: none !important;
+  font-size: 1.214em;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -48,8 +47,8 @@ body {margin:0;   background-color: #fafafa;}
   color: #000000;
   text-align: left;
   padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+  text-decoration: none !important;
+  font-size: 1.214em;
   font-family: 'Roboto', sans-serif;
 	
 }
@@ -66,6 +65,8 @@ margin: auto;
 	padding-right: 50px;
   
 }
+
+.mob-break {display: none;}
 .center-text {
 	text-align: center;
 }
@@ -78,6 +79,7 @@ margin: auto;
   stroke-width: 0;
   stroke: currentColor;
   fill: currentColor;
+	margin-bottom:10px;
 }
 
 h1 {
@@ -92,13 +94,50 @@ p {
 	font-size: 1.125em !important;
 }
 
+@media (max-width: 800px) {
+	.main {
+		height: 150vh;
+	}
+}
 
 
 @media only screen and (max-device-width: 600px) {
-	p {
-	font-size: 2em !important;
+	.menu {
+		width: 65px;
+	}
+	.menu-items {
+		text-align: center;
+  padding: 14px 16px;
+  font-size: 3.237em;
 }
+
+.right-menu-items {
+	display: none !important;
+ /*  padding: 14px 16px;
+  font-size: 3.237em; */
+	
+}
+	main {
+		  height: 300vh; /* Used in this example to enable scrolling */
+
+	}
+h1 {
+	font-size: 6.933em !important;
+}
+
+h2 {
+		font-size: 5em !important;
+}
+	p {
+	font-size: 3em !important;
+}
+.mob-break {display: block;}
+.mob-image {max-width: 100% !important; max-height: 100% !important;}
 .mob-left {
 	text-align: left;
+}
+.icon {
+	width: 4em;
+  height: 4em;
 }
 }
