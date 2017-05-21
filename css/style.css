@@ -79,3 +79,15 @@ margin: auto;
   stroke: currentColor;
   fill: currentColor;
 }
+
+h1 {
+	font-size: 2.6em !important;
+}
+
+h2 {
+		font-size: 2.15em !important;
+}
+
+p {
+	font-size: 1.125em !important;
+}
